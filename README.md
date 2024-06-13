@@ -14,7 +14,7 @@ Technology Stacks and used for the System
 ### 1. Clone the repository:
 
 ``` bash
-git clone 
+git clone https://github.com/ManulaGunatilleke/resturent-all.git
 ```
 ### 2. Backend navigation:
 
