@@ -1,4 +1,4 @@
-### Resturent System
+# Resturent System
 
 Technology Stacks and used for the System 
  -  Java Script(Language)
