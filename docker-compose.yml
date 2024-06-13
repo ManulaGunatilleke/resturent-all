@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  restaurant-frontend:
+    container_name: restaurant-frontend
+    build:
+      context: ./restaurant-frontend
+    ports:
+      - "3000:3000"  # Map container port 3000 to host port 3000
+    networks:
+      - app-network  # Define a common network for communication
+
+  restaurant-service:
+    container_name: restaurant-service
+    build:
+      context: ./restaurant-service
+    ports:
+      - "5000:5000"  # Map container port 5000 to host port 5000
+    networks:
+      - app-network  # Use the same network as frontend
+
+networks:
+  app-network:
+    driver: bridge
