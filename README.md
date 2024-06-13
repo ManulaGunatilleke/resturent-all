@@ -21,7 +21,7 @@ git clone https://github.com/ManulaGunatilleke/resturent-all.git
 - Go to inside restaurant-service folder
 
 ``` bash
-cd restaurant-frontend 
+cd restaurant-service 
 ```
 
 ### 3. Install dependencies for backend:
